@@ -1,0 +1,816 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    width: 100vw;
+    height: 120px;
+    background-color: #fff;
+    height: 120px;
+}
+
+.navigation {
+    height: 100%;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.nav-ul li {
+    width: 25%;
+    text-align: center;
+}
+
+.nav-ul li a {
+    font-size: 24px;
+    font-family: 'Iowan Old Style';
+    text-shadow: 1px 4px 1px rgba(0, 0, 0, 0.2) ;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: flex-end;
+}
+
+.top-img {
+    width: 75vw;
+    height: 732px;
+    object-fit: cover;
+
+}
+
+.logo-img {
+    width: 261px;
+    height: 146px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.section-philosophy {
+    width: 100vw;
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.section-philosophy img {
+    width: 485px;
+    height: 345px;
+    margin-left: 120px;
+}
+
+.philosophy-main {
+    width: 50vw;
+    padding-left: 60px;
+}
+
+.philosophy-main h2 {
+    font-size: 24px;
+    color: #000;
+    padding-top: 6px
+}
+
+.philosophy-main p {
+    padding-top: 40px;
+    color: #4e4e4e;
+    font-size: 16px;
+   line-height: 1.6;
+   letter-spacing: 1.45px;
+}
+
+.company {
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   padding-top: 50px;
+}
+
+.company-about {
+   height: 242px;
+   padding-left: 90px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.company-about p {
+    text-align: left;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.p2 {
+   padding: 50px 0 ;
+}
+
+.company img {
+    width: 474px;
+    height: 242px;
+    object-fit: cover;
+}
+
+.company-last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.company-last img {
+    width: 359px;
+    height: 201px;
+}
+
+.company-last p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 1.45px;
+    color: #4e4e4e;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.business {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.business-h2 {
+    font-size: 24px;
+    color: #000; 
+    padding-top: 150px;
+    text-align: center;
+}
+
+.sales {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+  
+.sales img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 980px; 
+}
+  
+.sales-about {
+    position: absolute;
+    color: #fff; 
+    text-align: center;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 980px; 
+    box-sizing: border-box;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: #4e4e4e 10px 10px 10px;
+}
+
+.sales-about hr {
+    width: 900px;
+    margin: auto;
+}
+
+.sales-about h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.sales-about h3 {
+    font-size: 18px;
+    padding-top: 18px;
+}
+
+.sales-about p {
+    width: 519px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 32px;
+}
+
+.sns {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+}
+  
+.sns img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 980px; 
+}
+  
+.sns-about {
+    position: absolute;
+    color: #fff; 
+    text-align: center;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 980px; 
+    box-sizing: border-box;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: #4e4e4e 10px 10px 10px;
+}
+
+.sns-about hr {
+    width: 900px;
+    margin: auto;
+}
+
+.sns-about h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.sns-about h3 {
+    font-size: 18px;
+    padding-top: 18px;
+}
+
+.sns-about p {
+    width: 519px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 32px;
+    text-align: center;
+    line-height: 1.75;
+}
+
+.influencer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+}
+  
+.influencer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 980px; 
+}
+  
+.influencer-about {
+    position: absolute;
+    color: #fff; 
+    text-align: center;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 980px; 
+    box-sizing: border-box;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: #4e4e4e 10px 10px 10px;
+}
+
+.influencer-about hr {
+    width: 900px;
+    margin: auto;
+}
+
+.influencer-about h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.influencer-about h3 {
+    font-size: 18px;
+    padding-top: 18px;
+}
+
+.influencer-about p {
+    width: 519px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 32px;
+    text-align: center;
+    line-height: 1.75;
+}
+
+/* 求人要項 */
+
+.staff {
+    width: 60%;
+    margin: 50px auto 0 auto;
+}
+
+.staff-box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 1px #000000;
+    height: 450px;
+}
+
+.staff-box h2 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.staff-p {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+} 
+
+.staff-p p {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 16px;
+} 
+
+.staff-about {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.staff-about ul {
+    margin:0 0 50px 0;
+    list-style: none;
+}
+
+.staff-about ul li a {
+    display: block;
+    padding:10px 30px;
+    color: #333;
+    text-decoration: none;
+}
+
+.staff-about ul li{
+    margin-bottom:20px;
+}
+
+.staff-about ul li a{
+    /*線の基点とするためrelativeを指定*/
+  position: relative;
+}
+.staff-about ul li a:hover{
+  color:#4e4e4e;
+}
+
+.staff-about ul li a::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    /*線の形状*/
+    width: 80%;
+    height: 2px;
+    background:#4e4e4e;
+    /*アニメーションの指定*/
+    transition: all .3s;
+    transform: scale(0, 1);/*X方向0、Y方向1*/
+    transform-origin: center top;/*上部中央基点*/
+}
+
+.staff-about li a:hover::after {
+    transform: scale(1, 1);/*X方向にスケール拡大*/
+}
+
+/* おわり */
+
+.president {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.president img {
+    width: 360px;
+    height: 469px;
+    margin-left: 120px;
+    box-shadow: #4e4e4e 10px 10px 10px;
+}
+
+.president-about {
+    width: 50%;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.president-about h2 {
+    font-size: 20px;
+}
+
+.president-about h3 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.president-about p {
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 1.45px;
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.map {
+    text-align: center;
+
+}
+
+.map h2 {
+ font-size: 20px;
+}
+
+.place-name {
+    margin-top: 66px;
+    text-align: left;
+}
+
+.place-name p {
+    font-size: 16px;
+    letter-spacing: 1.45px;
+    margin-top: 10px;
+}
+
+.place iframe {
+    margin-left: 150px;
+}
+
+footer {
+    width: 100vw;
+    height: 320px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+border: solid #4e4e4e 1px;
+}
+
+.footer-contents {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.footer-nav {
+    color: #4e4e4e;
+}
+
+.footer-nav h2 {
+font-size: 20px;
+}
+
+.footer-nav hr {
+    width: 240px;
+    margin-top: 40px;
+}
+
+.footer-sns {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.footer-sns a {
+   padding-right: 20px;
+}
+
+.footer-sns a img {
+    width: 40px;
+    padding-top: 120px;
+}
+
+small {
+    margin:  0 auto;
+}
+
+@media (max-width:480px) {
+    header {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .top-img {
+        width: 100vw;
+        height: 180px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .logo-img {
+        width: 261px;
+        height: 146px;
+        margin: auto;
+    }
+
+    .about {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .section-philosophy img {
+        display: none;
+    }
+
+    .section-philosophy {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .philosophy-main {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .philosophy-main h2 {
+        text-align: center;
+    }
+
+    .philosophy-about {
+        text-align: center;
+        width: 100vw;
+       padding: 0 6px;
+    }
+
+    .philosophy-about br {
+        display: none;
+    }
+
+    .company {
+        display: none;
+    }
+
+    .company-about {
+        text-align: center;
+        padding: 0;
+        margin: 0 10px;
+    }
+
+    .company-about p{
+        letter-spacing: 1.45px;
+        padding: 20px 10px 0 10px;
+    }
+
+    .p2 {
+      padding: 0;
+    }
+
+    .company img {
+        display: none;
+    }
+
+    .company-last {
+        padding-top: 0;
+    }
+
+    .company-last img {
+        width: 240px;
+        height: auto;
+    }
+
+    .company-last p {
+        width: 300px;
+        text-align: center;
+    }
+
+    .company-last br {
+        display: none;
+    }
+
+    .business {
+        margin-top: 0;
+    }
+
+    .sales-about {
+        width: 100%;
+        max-width: 480px; 
+        height: 204px;
+    }
+    
+    .sales-about hr {
+        width: 80vw;
+        margin: auto;
+    }
+    
+    .sales-about p {
+        display: none;
+    }
+
+    .sns {
+        padding-top: 40px;
+    }
+
+    .sns-about {
+        width: 100%;
+        max-width: 480px; 
+        height: 204px;
+    }
+    
+    .sns-about hr {
+        width: 80vw;
+        margin: auto;
+    }
+    
+    .sns-about p {
+        display: none;
+    }
+
+    .influencer {
+        padding-top: 40px;
+    }
+    
+    .influencer-about {
+        width: 100%;
+        max-width: 480px; 
+        height: 204px;
+    }
+    
+    .influencer-about hr {
+        width: 80vw;
+        margin: auto;
+    }
+    
+    .influencer-about p {
+        display: none;
+    }
+
+    .staff {
+        width: 100vw;
+    }
+
+    .staff-box {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .staff-p {
+        width: 100%;
+    }
+
+    .business-h2 {
+        padding-top: 0;
+    }
+    
+    .president {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .president img {
+        margin: 0 auto;
+    }
+
+    .president-about {
+        width: 90vw;
+       padding-left: 0;
+       text-align: center;
+       margin: 20px auto 0 auto;
+    }
+
+    .president-about p {
+        text-align: left;
+    }
+
+    .president-about h3 {
+        text-align: left;
+    }
+
+    .president-about br {
+       display: none;
+    }
+
+    .contact {
+        width: 100vw;
+    }
+
+    .contact iframe {
+      width: 90vw;
+      height: auto;
+      margin: 0;
+      padding-top: 0;
+    }
+
+    .place {
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .place h2 {
+        padding-top: 30px;
+    }
+
+    .place-name {
+        margin: 0;
+    }
+
+    .business-h2 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .footer {
+        width: 100vw;
+        height: 220px;
+    }
+
+    .footer-contents {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer-nav {
+        height: 20px;
+    }
+
+    .footer-nav h2 {
+        font-size: 18px;
+    }
+
+    .footer-nav hr {
+        width: 20px;
+        margin: 10px auto 0 auto;
+    }
+
+    .footer-sns {
+        padding: 0;
+    }
+
+    .footer-sns a img {
+       padding-top: 30px;
+    }
+
+
+}
+
+
+
+
